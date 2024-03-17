@@ -1,0 +1,334 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Athiti", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+:root{
+    --nav-color: rgb(99, 0, 192);
+}
+nav{
+    background-color: var(--nav-color);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.myname{
+    font-size: x-large;
+    
+}
+.name{
+    margin: 1rem;
+   
+}
+.mail, .mobile{
+    display: flex;
+    align-items: center;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.li-icon{
+    list-style: none;
+    font-size: larger;
+    padding: 1rem;
+}
+.li-icon:hover{
+    font-style: italic;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+p, h1, h2, h3{
+    overflow: auto;
+}
+img{
+    max-inline-size: 100%;
+  block-size: auto;
+}
+.lalitha{
+    border-radius: 50%;
+    
+}
+.me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5rem ;
+    align-items: center;
+}
+.content{
+    width: 60%;
+}
+.name-color{
+    color: var(--nav-color);
+    font-size: 2rem;
+    font-weight: 900;
+}
+.mar{
+    margin-left: 8%;
+}
+.all-skills{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+.html{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 25%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 3%;
+}
+.html:hover{
+    cursor: pointer;
+}
+.p1{
+    margin-left: 10%;
+}
+h3{
+    font-weight: bold;
+}
+li{
+    margin-left: 2rem;
+}
+hr{
+    width: 75%;
+    margin-left: 10%;
+}
+.r1{
+    width: 25%;
+    border: 1.5px solid rgb(135, 132, 132);
+    border-radius: 10px;
+    padding: 1%;
+}
+.recommends{
+    display: flex;
+    justify-content: space-between;
+    margin: 5%;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+.leave{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5%;
+}
+.name-opt{
+    width: 50%;
+}
+.flex_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    border: 1px solid var(--nav-color);
+    color: var(--nav-color);
+    border-radius: 2px;
+    background-color: #fff;
+    padding: 0.5% 2.5%;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.introduction{
+    font-weight: bold;
+}
+.iconbutton{
+    width: 48px;
+    height: 48px;
+    border-radius: 100%;
+    background-color: #7600bc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    right: 3%;
+    bottom: 3%;
+    cursor: pointer;
+    
+}
+.popup {
+    width:400px;
+    background-color: #e8bcf0;
+    border-radius: 3mm;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    position: fixed;
+    /* padding: 30px; */
+    visibility: hidden;
+}
+  
+.popup img {
+    padding-top: 20px;
+}
+  
+.popup button {
+    background-color: #fff;
+    border: 1px solid var(--nav-color);
+    color: var(--nav-color);
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+    margin-left: 25%;
+}
+  
+.popup button:hover {
+    background-color: #fff;
+    border: 2px solid var(--nav-color);
+    color: var(--nav-color);
+    display: block;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 25%;
+}
+  
+  /* Recommendation Form */
+  
+input, textarea {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    margin: 10px;  
+    width:100%;
+}
+  
+fieldset {
+    display: flexbox;
+    align-content: center;
+    justify-content: center;  
+    padding: 25px; 
+    margin-left: 50px; 
+    margin-right: 50px;   
+    border: thin solid white;
+    width: 50%;
+}
+  
+  /* Buttons */
+  
+button {
+    background-color: #fff;
+    border: 1px solid var(--nav-color);
+    color: var(--nav-color);
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+    width: 2in;
+    font-size: 20px;
+}
+  
+button:hover {
+    background-color: var(--nav-color);
+    border: 1px solid var(--nav-color);
+    color: #fff;
+    display: block;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .name{
+        align-items: center;
+        justify-content: center;
+    }
+    .content {
+        width: 80%; /* Adjust content width for smaller screens */
+    }
+    
+    .me {
+        margin: 2rem; /* Adjust margin for the 'me' section */
+    }
+    
+    .html {
+        width: 45%; /* Adjust skill box width for smaller screens */
+    }
+    
+    .recommends {
+        margin: 2rem; /* Adjust margin for the 'recommends' section */
+        
+    }
+    .all-skills{
+        align-items: center;
+        justify-content: center;
+    }
+    .leave {
+        margin: 2rem; /* Adjust margin for the 'leave' section */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .content {
+        width: 90%; /* Further adjust content width for smaller screens */
+    }
+    
+    .html {
+        width: 90%; 
+
+    }
+    .recommends {
+        flex-direction: column; /* Change flex direction to column for screens up to 320px wide */
+        align-items: center; /* Center items vertically */
+        margin: 0; /* Remove margin for better layout */
+    }
+    .r1 {
+        width: 90%; /* Adjust width of recommendation items */
+        margin: 10px 0; /* Add margin between recommendation items */
+    }
+}
+@media only screen and (max-width: 320px) {
+    html{
+        width: 100%;
+    }
+    nav {
+        flex-direction: column; /* Change flex direction to column for screens up to 320px wide */
+        align-items: flex-start; /* Align items to start in column layout */
+    }
+
+    .name,
+    .li-icon {
+        padding: 0.5rem; /* Adjust padding for better spacing in column layout */
+    }
+    .mail,
+    .mobile {
+        margin-top: 0.5rem; /* Adjust margin for better spacing in column layout */
+    }
+    .recommends {
+        flex-direction: column; /* Change flex direction to column for screens up to 320px wide */
+        align-items: center; /* Center items vertically */
+        margin: 0; /* Remove margin for better layout */
+    }
+    .r1 {
+        width: 90%; /* Adjust width of recommendation items */
+        margin: 10px 0; /* Add margin between recommendation items */
+    }
+    .iconbutton {
+        bottom: 10px; /* Adjust the position for small screens */
+        right: 10px; /* Adjust the position for small screens */
+    }
+}

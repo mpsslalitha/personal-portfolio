@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,200,0,0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Athiti:wght@500&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="name" id="pooji">
+                <p class="myname">Poojitha Sai Sri Lalitha Mulukutla</p>
+                <div class="mail">
+                    <span class="material-symbols-outlined">
+                        mail
+                    </span>
+                    <a href="mailto:mpsslalitha@gmail.com"><pre>  mpsslalitha@gmail.com</pre></a>
+                </div>
+                <div class="mobile">
+                    <span class="material-symbols-outlined">
+                        call
+                    </span>
+                    <pre>  +91 9676076476</pre>
+                </div>
+            </div>
+            <div class="skill">
+                <ul>
+                    <a href="#girl"><li class="li-icon">About Me</li></a>
+                    <a href="#sample"><li class="li-icon">Skills</li></a>
+                    <a href="#pro"><li class="li-icon">Projects</li></a>
+                    <a href="#recommend"><li class="li-icon">Recommendations</li></a>
+                    
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="me" id="girl">
+            <img src="./images/M POOJITHA photo.jpg" alt="girl" class="lalitha">
+            <div class="content">
+                <h1 class="name-color">Hey, I'm Poojitha Sai Sri Lalitha Mulukutla!👋</h1>
+                <p>A passionate and driven undergraduate college student with a fervent interest in Web Development and
+                    Data Science. As a dedicated learner, I thrive on exploring new concepts and pushing the boundaries
+                    of my knowledge to achieve my goals.As I continue my journey, I am excited about the opportunities that lie ahead. I am determined to leverage my skills and experiences to make a positive impact in Software field.</p>
+            </div>
+        </div>
+        <h1 class="name-color mar" id="sample">Skills</h1>
+        <div class="all-skills">
+            <div class="html">
+                <img src="./images/html.png" alt="html">
+                <h1>HTML</h1>
+                <p>2 Years of Experience</p>
+            </div>
+            <div class="html">
+                <img src="./images/css.png" alt="html">
+                <h1>CSS</h1>
+                <p>2 Years of Experience</p>
+            </div>
+            <div class="html">
+                <img src="./images/js.png" alt="html">
+                <h1>JavaScript</h1>
+                <p>1.5 Years of Experience</p>
+            </div>
+            <div class="html">
+                <img src="./images/react.png" alt="html">
+                <h1>React JS</h1>
+                <p>1 Year of Experience</p>
+            </div>
+            <div class="html">
+                <img src="./images/java.png" alt="html">
+                <h1>Java</h1>
+                <p>1 Year of Experience</p>
+            </div>
+            <div class="html">
+                <img src="./images/python.png" alt="html">
+                <h1>Python</h1>
+                <p>1 Year of Experience</p>
+            </div>
+        </div>
+
+        <h1 class="name-color mar"  id="pro">Projects</h1>
+        <div class="project">
+            <div class="p1">
+                <h3>2048 Game Clone</h3>
+                <ul>
+                    <li>Created a 2048 Game Clone using HTML, CSS, JavaScript</li>
+                </ul>
+                <br>
+                <hr>
+            </div>
+            <br>
+            <div class="p1">
+                <h3>E - Commerce Website UI Clone</h3>
+                <ul>
+                    <li>Created E - Commerce website(Amazon) clone using HTML, CSS, JavaScript</li>
+                </ul>
+                <br>
+                <hr>
+            </div>
+            <br>
+            <div class="p1">
+                <h3>MediLab</h3>
+                <ul>
+                    <li>Created a Laboratory Management System using React JS </li>
+                </ul>
+                <br>
+                <hr>
+            </div>
+            <br>
+        </div>
+
+        <h1 class="name-color mar">Recommendations</h1>
+        <br>
+        <div class="recommends" id="recommend">
+            <div class="r1">
+                "During our time working together, I have had the pleasure of witnessing Poojitha's remarkable
+                    abilities in Frontend Development. Her proficiency in HTML, CSS, Javascript is truly impressive, and
+                    she have a knack for finding innovative solutions to complex problems."
+            </div>
+            <div class="r1">
+                "I have had the privilege of collaborating with Poojitha on several projects, and each time, I have
+                    been thoroughly impressed by her professionalism, and commitment to excellence. Poojitha
+                    consistently demonstrates a strong grasp of her skills."
+            </div>
+            <div class="r1">
+                "I hired Poojitha to develop a custom website for my business, and I couldn't be happier with the results. She was attentive to my needs, responsive to feedback, and delivered a polished final product that exceeded my expectations. I highly recommend her for any web development project"
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="contact">
+        <div class="flex_center">
+            <fieldset>
+                <legend class="introduction">Leave a Recommendation</legend>          
+                <input type="text" placeholder=" Name (Optional)"> <br/>
+                <textarea id="new_recommendation" cols="500" rows="10" placeholder=" Message"></textarea>
+                <div class="flex_center">
+                    <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+                </div>
+            </fieldset>
+        </div>
+        </section>
+        
+        <div class="iconbutton">
+            <a href="#pooji">
+              <!--Add the code here for the logo to appear and the icon to be actionable-->
+             
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+              </svg>
+            </a>
+        </div>
+        
+        <div class="popup" id="popup" class="flex_center">
+            <!-- <img src="images.png/checkmark--outline.svg"/> -->
+            <span style="font-size: xx-large;">&#10003;</span>
+            <h3>Thanks for leaving a recommendation !</h3>
+            <button onclick="showPopup(false)">Ok</button>
+        </div>
+        <script src="script.js"></script>
+</body>
+
+</html>
